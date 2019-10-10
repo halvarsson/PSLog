@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSLOG level="debug" console="true" >
+    <logsettings    maxBackupFiles="5" 
+                    maxFileSize="10000" 
+                    name="testfile.log" 
+                    pattern="%d% %t% [%lvl%]: %log_data%" 
+                    datepattern="yyyy-MM-dd" 
+                    timepattern="HH:mm:ss:ffff" 
+                    logDestinationRegex="\\(config)\\(.*)\.xml"
+                    encoding="UTF-8"
+    />
+</PSLOG>
