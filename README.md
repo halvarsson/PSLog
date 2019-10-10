@@ -21,6 +21,8 @@ Logger written for Powershell
 
 | Setting        | Description           | Default value  |
 | ------------- |:-------------:| -----:|
+| level | The level of logging that should be written to file. INFO/DEBUG/WARN/ERROR/FATAL     |  DEBUG   | 
+| console | Whether or not logging should also be output to console     |  false   | 
 | maxBackupFiles      | The amount of files to rotate before overwriting old logs | N/A |
 | maxFileSize      | The max size of the log file before its rotated      | N/A   |
 | name | The name of the logfile to be used. Will belogged to \logs\     |  N/A   | 
