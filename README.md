@@ -30,6 +30,8 @@ Logger written for Powershell
 | datepattern | Pattern for date (1)      |  yyyy-MM-dd   |
 | timepattern | Pattern for timestamp (1)     | HH:mm:ss    |
 | logDestinationRegex | Regular expression of where the .xml file is saved      |  \\(config)\\(.*)\.xml   |
-| encoding | The encoding the content of the content in the logfile    | UTF-8
+| encoding | The encoding the content of the content in the logfile.   | UTF-8
 
 (1) https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings?view=netframework-4.8
+
+Possible encodings can be retrieved with [System.Text.Encoding]::GetEncodings()
