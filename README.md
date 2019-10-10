@@ -1,5 +1,5 @@
 # PSLog
-Logger written for Powershell
+Logger written for Powershell, modelled on log4j
 
 # Example XML configuration file
 ```
